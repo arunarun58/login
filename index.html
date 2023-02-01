@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form action="">
+        <div class="form-group">
+          <input type="text" placeholder="Username">
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+          <a href="">Forgot Password</a>
+          <div class="extra-btn">
+            <input type="submit" value="Sign Up">
+            <input type="submit" value="Contact">
+            <input type="submit" value="Help">
+          </div>
+        </div>
+      </form>
+    </div>
+    <style>
+        
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin: 50px auto;
+        padding: 40px;
+        width: 400px;
+        height: 350px;
+      }
+      
+      h1 {
+        color: #3a00c2;
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        border-bottom: 2px solid #6d0689;
+        outline: none;
+      }
+      
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        background-color: blueviolet;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #338136;
+      }
+
+      a {
+        margin-top: 15px;
+      }
+
+      .extra-btn {
+        display: inline-flex;
+        position: relative;
+      }
+
+      .extra-btn input {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        place-content: center;
+        background-color: #2e1d8b;
+        width: 100px;
+      }
+
+      .extra-btn input:hover {
+        background-color: #481c54;
+      }
+
+    </style>
+  </body>
+</html>
